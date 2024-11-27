@@ -1,0 +1,33 @@
+body{
+    font-family: 'Khula', sans-serif;
+}
+.content{
+    max-width: 944px;
+    margin: 0 auto;
+}
+.bg_white{
+    background-color: #fff;
+}
+.bg_gray{
+    border-color: #F6F6F6;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0;
+    padding: 20px 0;
+    border-bottom: 1px solid #828282;
+}
+.nav li{
+    list-style: none;
+}
+.nav__item{
+    margin-left: 15px;
+    text-decoration: none;
+    color: #828282;
+}
+.nav__item_active{
+    color:#000;
+}
+
